@@ -18,7 +18,7 @@ async def main():
     coffee = brew_coffee()
     bagel = toast_bagel()
 
-    results = await asyncio.gather(coffee,bagel)
+    results = await asyncio.gather(coffee, bagel)
 
     end = time.time()
 
